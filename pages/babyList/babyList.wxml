@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="header">
+    <button class="add-button" bindtap="addBaby">添加我的宝贝</button>
+  </view>
+  
+  <view class="baby-list">
+    <block wx:for="{{babyList}}" wx:key="index">
+      <view class="baby-item" bindtap="onBabyItemClick" data-index="{{index}}">
+        <text class="baby-name">{{item.baby_name}}</text>
+        <text class="baby-age">{{item.age}}, 共{{item.blog_count}}条记录</text>
+      </view>
+    </block>
+  </view>
+</view>

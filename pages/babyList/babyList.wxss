@@ -1,0 +1,54 @@
+.container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center; /* 居中对齐 */
+  align-items: center;
+  position: relative; /* 使按钮可以绝对定位 */
+  margin-top: 10px; /* 减少顶部间距 */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  flex-grow: 1; /* 使标题占据可用空间 */
+  text-align: center; /* 确保文本居中 */
+}
+
+.add-button {
+  background-color: #1aad19; /* 微信绿色 */
+  color: white;
+  padding: 10px 20px; /* 增加按钮内边距 */
+  border-radius: 5px;
+  margin-top: 20px; /* 添加顶部间距 */
+  text-align: center; /* 确保文本居中 */
+  font-size: 16px; /* 字体大小 */
+  width: 100%; /* 按钮宽度100% */
+  max-width: 300px; /* 最大宽度 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+.baby-list {
+  margin-top: 20px;
+}
+
+.baby-item {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.baby-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.baby-age {
+  color: #666;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}

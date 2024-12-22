@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  flex-direction: column; /* 纵向排列 */
+  align-items: center; /* 水平居中 */
+  padding: 20px;
+  background-color: #f7f7f7; /* 浅色背景 */
+  height: 100vh; /* 填充整个视口 */
+}
+
+.header {
+  margin-bottom: 20px; /* 添加底部间距 */
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.gender-selection {
+  display: flex;
+  justify-content: space-around; /* 平均分配空间 */
+  margin-top: 20px; /* 顶部间距 */
+  width: 100%; /* 宽度100% */
+}
+
+.gender-option {
+  text-align: center;
+  padding: 10px; /* 内边距 */
+  border-radius: 10px; /* 圆角 */
+  background-color: #ffffff; /* 默认白色背景 */
+  border: 1px solid #ccc; /* 边框 */
+  width: 120px; /* 按钮宽度 */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+
+.gender-icon {
+  width: 60px; /* 图标宽度 */
+  height: 60px; /* 图标高度 */
+}
+
+.gender-text {
+  margin-top: 5px; /* 文本顶部间距 */
+  font-size: 16px; /* 文本大小 */
+}
+.label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* 纵向排列 */
+  align-items: center; /* 水平居中 */
+  padding: 20px;
+  background-color: #f7f7f7; /* 浅色背景 */
+  height: 100vh; /* 填充整个视口 */
+}
+.date-selection {
+  margin-top: 20px; /* 顶部间距 */
+  width: 100%; /* 宽度100% */
+}
+
+.label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.picker {
+  border: 1px solid #ccc;
+  padding: 10px; /* 合理的内边距 */
+  border-radius: 5px;
+  background-color: #ffffff; /* 白色背景 */
+  width: 100%; /* 宽度100% */
+  max-width: 300px; /* 最大宽度 */
+  height: 80rpx;
+  line-height: 40px; /* 使文本垂直居中 */
+  text-align: center; /* 文本居中 */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+
+.name-input {
+  margin-top: 20px; /* 顶部间距 */
+  width: 100%; /* 宽度100% */
+}
+
+.label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+  text-align: left; /* 标签左对齐 */
+}
+
+.name-field {
+  width: 100%;
+  height: 80rpx;
+  border: 1rpx solid #eaeaea;
+  border-radius: 4rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+
+.next-button {
+  background-color: #1aad19; /* 微信绿色 */
+  color: white;
+  padding: 8px 16px; /* 减小按钮内边距 */
+  border-radius: 5px;
+  margin-top: 20px; /* 添加顶部间距 */
+  text-align: center; /* 确保文本居中 */
+  font-size: 14px; /* 减小字体大小 */
+  width: auto; /* 自适应宽度 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}

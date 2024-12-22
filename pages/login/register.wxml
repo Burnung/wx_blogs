@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="register-title">注册</view>
+  <input class="register-input" type="text" placeholder="手机号" bindinput="onPhoneInput" />
+  <input class="register-input" type="password" placeholder="设置密码" bindinput="onPasswordInput" />
+  <input class="register-input" type="password" placeholder="确认密码" bindinput="onConfirmPasswordInput" />
+  <button class="register-button" bindtap="onRegisterSubmit">注册</button>
+  <view class="login-register-link" bindtap="onLogin">已有账号，去登录</view>
+</view>

@@ -1,0 +1,37 @@
+<view class="container">
+  <view class="header">
+    <text class="header-title">宝宝信息</text>
+  </view>
+
+  <view class="gender-selection">
+  <view class="gender-option" bindtap="selectGenderFunc" data-gender="boy" style="{{selectedGender === 'boy' ? 'background-color: #e0f7fa;' : ''}}">
+    <image src="/path/to/boy-icon.png" class="gender-icon" />
+    <text class="gender-text">男孩</text>
+  </view>
+  <view class="gender-option" bindtap="selectGenderFunc" data-gender="girl" style="{{selectedGender === 'girl' ? 'background-color: #e0f7fa;' : ''}}">
+    <image src="/path/to/girl-icon.png" class="gender-icon" />
+    <text class="gender-text">女孩</text>
+  </view>
+</view>
+
+  <view class="date-selection">
+    <text class="label">生日</text>
+    <picker mode="date" class="date-picker" bindchange="bindDateChange">
+      <view class="picker">
+        <text>{{bornDate}}</text>
+      </view>
+    </picker>
+  </view>
+
+  <view class="name-input">
+  <text class="label">小名</text>
+  <input class="name-field" type="text" placeholder="请输入小名" bindinput="onNameInput" />
+  </view>
+
+  <view class="name-input">
+  <text class="label">你是宝宝的</text>
+  <input class="name-field" type="text" placeholder="请输入关系" bindinput="onRoleInput" />
+  </view>
+  <button class="next-button" bindtap="onNext">下一步</button>
+
+</view>

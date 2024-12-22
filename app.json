@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/friendsCirle/friendsCirle",
+    "pages/edit/edit",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/babyList/babyList",
+    "pages/addBaby/addBaby"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  }
+}
